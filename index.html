@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+  		<title>SpaceX - Homepage</title>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link type="text/css" href="styles/layout.css" rel="stylesheet" />
+    	<link rel="stylesheet" href="styles/style.css">
+
+    	<script src="js/main.js" defer></script>
+    	<script src="js/jquery.min.js"></script>
+  	</head>
+  	<body>
+      <header class="flex">
+        <div class="search">
+            <label for="Search">
+                <i data-feather="search" class="search-icon"></i>
+            </label>
+            <div class="search-input">
+              <input type="text" placeholder="Search..." v-model="searchQuery" id="Search">
+            </div>
+          </div>
+          <div id="header-navigation">
+            <ul>
+              <li class="mobile-display-none"><a href="#" id="switch"></a></li>
+            <li><a href="#"><i id="bell" data-feather="bell"></i></a></li>
+              <li class="mobile-display-none"><a href="#"><i id="help" data-feather="help-circle"></i></a></li>
+              <li><a href="#"><i id="user" data-feather="user"></i><label> Jorn M.</label></a></li>
+            </ul>
+          </div>
+      </header>
+    	<nav id="sidebar">
+        <ul> 
+        	<div>
+    			 <button type="button" id="sidebarCollapse"><i data-feather="menu"></i></button>
+       	 	</div>
+        	<li class="active"><a href="#"><i class="navigationIcons" data-feather="home"></i><label> Home</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="bar-chart-2"></i><label> Dashboard</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="trending-up"></i><label> Analysis</label></a></li>
+    	    <li><a href="#"><i class="navigationIcons" data-feather="mail"></i><label> Inbox</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="calendar"></i><label> Calendar</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="users"></i><label> Colleagues</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="help-circle"></i><label> Help Center</label></a></li>
+        	<li><a href="#"><i class="navigationIcons" data-feather="settings"></i><label> Settings</label></a></li>
+        </ul>
+    	</nav>
+    	<main> 
+      	<section class="flex"> 
+          <article>
+          	<h1>Today</h1>
+          	<h4 id="date"></h4>
+        	</article>
+        	<article>
+            <div id="clock">
+              <div class="hours-container">
+                <div id="hour"></div>
+              </div>
+              <div class="minutes-container">
+                <div id="minute"></div>
+              </div>
+              <div class="seconds-container">
+                <div id="second"></div>
+              </div>
+            </div>
+          	<h5 id="digitalClock"></h5>
+          	<p id="text">Time in Amsterdam, Netherlands</p>
+        	</article>
+        	<article>
+            <h3>Days from arrival</h3>
+          	<h2 id="daysFromArrival"></h2>
+        	</article>
+			</section> 
+    </main>
+    <footer>
+    	
+    </footer>
+	</body>
+</html>
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+      //repace iconen
+      feather.replace()
+</script>
