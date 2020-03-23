@@ -1,8 +1,7 @@
 
 
 # IxT & Technology 2 - Challenge 2
-maart - 2020
-Dit is een project voor het vak IxT & Technology 2. 
+maart 2020 - Dit is een project voor het vak IxT & Technology 2. 
 
 ## Inleiding
 Het doel van deze opdracht was om de mars kolonisten een centrale klok op hun divices te geven. Zo krijgen ze gevoel het van tijd op mars. De omgeving waarin de klok zich bevind is bekend voor ze. Het is geintregeerd in de onboarding van het dashboard waarmee ze naar mars zijn gegaan. 
