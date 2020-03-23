@@ -1,7 +1,7 @@
 
 
 # IxT & Technology 2 - Challenge 2
-maart - 2020</br>
+maart - 2020
 Dit is een project voor het vak IxT & Technology 2. 
 
 ## Inleiding
